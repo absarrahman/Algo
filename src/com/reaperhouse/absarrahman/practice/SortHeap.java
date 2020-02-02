@@ -50,7 +50,4 @@ public class SortHeap {
         return (2*i)+2;
     }
 
-    public static int parent(int i){
-        return i/2;
-    }
 }
