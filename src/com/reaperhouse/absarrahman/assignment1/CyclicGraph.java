@@ -43,7 +43,7 @@ public class CyclicGraph {
             if(visited[v]==-1){
                 parent[v]=u;
                 visitDFS(v);
-            } else if((visited[v]==0)&&(graph[u][v])==1){
+            } else if((visited[v]==0)&&(graph[u][v])==1){ // if cyclic
                 cyclic=true;
                 cyclePointer[v]=1;
                 return;
